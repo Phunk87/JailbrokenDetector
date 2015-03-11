@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name         = "JailbrokenDetector.podspec"
+  s.name         = "JailbrokenDetector"
   s.version      = "0.1.0"
   s.summary      = "Detect if your iOS device is jailbroken."
   s.homepage     = "https://github.com/0dayZh/JailbrokenDetector"
