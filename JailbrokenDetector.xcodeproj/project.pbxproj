@@ -1,0 +1,371 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		76FD79841AB08B45007231D6 /* JailbrokenDetector.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 76FD79831AB08B45007231D6 /* JailbrokenDetector.h */; };
+		76FD79861AB08B45007231D6 /* JailbrokenDetector.m in Sources */ = {isa = PBXBuildFile; fileRef = 76FD79851AB08B45007231D6 /* JailbrokenDetector.m */; };
+		76FD798C1AB08B45007231D6 /* libJailbrokenDetector.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 76FD79801AB08B45007231D6 /* libJailbrokenDetector.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		76FD798D1AB08B45007231D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76FD79781AB08B45007231D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76FD797F1AB08B45007231D6;
+			remoteInfo = JailbrokenDetector;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		76FD797E1AB08B45007231D6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				76FD79841AB08B45007231D6 /* JailbrokenDetector.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		76FD79801AB08B45007231D6 /* libJailbrokenDetector.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libJailbrokenDetector.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		76FD79831AB08B45007231D6 /* JailbrokenDetector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JailbrokenDetector.h; sourceTree = "<group>"; };
+		76FD79851AB08B45007231D6 /* JailbrokenDetector.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JailbrokenDetector.m; sourceTree = "<group>"; };
+		76FD798B1AB08B45007231D6 /* JailbrokenDetectorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JailbrokenDetectorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		76FD79911AB08B45007231D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		76FD797D1AB08B45007231D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76FD79881AB08B45007231D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76FD798C1AB08B45007231D6 /* libJailbrokenDetector.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		76FD79771AB08B45007231D6 = {
+			isa = PBXGroup;
+			children = (
+				76FD79821AB08B45007231D6 /* JailbrokenDetector */,
+				76FD798F1AB08B45007231D6 /* JailbrokenDetectorTests */,
+				76FD79811AB08B45007231D6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		76FD79811AB08B45007231D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				76FD79801AB08B45007231D6 /* libJailbrokenDetector.a */,
+				76FD798B1AB08B45007231D6 /* JailbrokenDetectorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		76FD79821AB08B45007231D6 /* JailbrokenDetector */ = {
+			isa = PBXGroup;
+			children = (
+				76FD79831AB08B45007231D6 /* JailbrokenDetector.h */,
+				76FD79851AB08B45007231D6 /* JailbrokenDetector.m */,
+			);
+			path = JailbrokenDetector;
+			sourceTree = "<group>";
+		};
+		76FD798F1AB08B45007231D6 /* JailbrokenDetectorTests */ = {
+			isa = PBXGroup;
+			children = (
+				76FD79901AB08B45007231D6 /* Supporting Files */,
+			);
+			path = JailbrokenDetectorTests;
+			sourceTree = "<group>";
+		};
+		76FD79901AB08B45007231D6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				76FD79911AB08B45007231D6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		76FD797F1AB08B45007231D6 /* JailbrokenDetector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76FD79941AB08B45007231D6 /* Build configuration list for PBXNativeTarget "JailbrokenDetector" */;
+			buildPhases = (
+				76FD797C1AB08B45007231D6 /* Sources */,
+				76FD797D1AB08B45007231D6 /* Frameworks */,
+				76FD797E1AB08B45007231D6 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JailbrokenDetector;
+			productName = JailbrokenDetector;
+			productReference = 76FD79801AB08B45007231D6 /* libJailbrokenDetector.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		76FD798A1AB08B45007231D6 /* JailbrokenDetectorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76FD79971AB08B45007231D6 /* Build configuration list for PBXNativeTarget "JailbrokenDetectorTests" */;
+			buildPhases = (
+				76FD79871AB08B45007231D6 /* Sources */,
+				76FD79881AB08B45007231D6 /* Frameworks */,
+				76FD79891AB08B45007231D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76FD798E1AB08B45007231D6 /* PBXTargetDependency */,
+			);
+			name = JailbrokenDetectorTests;
+			productName = JailbrokenDetectorTests;
+			productReference = 76FD798B1AB08B45007231D6 /* JailbrokenDetectorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		76FD79781AB08B45007231D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = 0dayZh;
+				TargetAttributes = {
+					76FD797F1AB08B45007231D6 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					76FD798A1AB08B45007231D6 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 76FD797B1AB08B45007231D6 /* Build configuration list for PBXProject "JailbrokenDetector" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 76FD79771AB08B45007231D6;
+			productRefGroup = 76FD79811AB08B45007231D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				76FD797F1AB08B45007231D6 /* JailbrokenDetector */,
+				76FD798A1AB08B45007231D6 /* JailbrokenDetectorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		76FD79891AB08B45007231D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		76FD797C1AB08B45007231D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76FD79861AB08B45007231D6 /* JailbrokenDetector.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76FD79871AB08B45007231D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		76FD798E1AB08B45007231D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 76FD797F1AB08B45007231D6 /* JailbrokenDetector */;
+			targetProxy = 76FD798D1AB08B45007231D6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		76FD79921AB08B45007231D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		76FD79931AB08B45007231D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		76FD79951AB08B45007231D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		76FD79961AB08B45007231D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		76FD79981AB08B45007231D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = JailbrokenDetectorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		76FD79991AB08B45007231D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = JailbrokenDetectorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		76FD797B1AB08B45007231D6 /* Build configuration list for PBXProject "JailbrokenDetector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76FD79921AB08B45007231D6 /* Debug */,
+				76FD79931AB08B45007231D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76FD79941AB08B45007231D6 /* Build configuration list for PBXNativeTarget "JailbrokenDetector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76FD79951AB08B45007231D6 /* Debug */,
+				76FD79961AB08B45007231D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		76FD79971AB08B45007231D6 /* Build configuration list for PBXNativeTarget "JailbrokenDetectorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76FD79981AB08B45007231D6 /* Debug */,
+				76FD79991AB08B45007231D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 76FD79781AB08B45007231D6 /* Project object */;
+}
