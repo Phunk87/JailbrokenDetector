@@ -80,7 +80,7 @@
     return NO;
 }
 
-- (UIApplication *)getSharedApplication {
++ (UIApplication *)getSharedApplication {
     Class UIApplicationClass = NSClassFromString(@"UIApplication");
     if (UIApplicationClass && [UIApplicationClass respondsToSelector:@selector(sharedApplication)]) {
         return [UIApplication performSelector:@selector(sharedApplication)];
