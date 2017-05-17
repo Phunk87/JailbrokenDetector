@@ -28,7 +28,9 @@
         return YES;
     }
     
-    if ([[UIApplication sharedApplication] canOpenURL:[NSURL URLWithString:@"cydia://package/com.example.package"]]) {
+    
+    UIApplication *app = [self getSharedApplication];
+    if (app && [app canOpenURL:[NSURL URLWithString:@"cydia://package/com.example.package"]]) {
         return YES;
     }
     
@@ -76,6 +78,14 @@
     
     //All checks have failed. Most probably, the device is not jailbroken
     return NO;
+}
+
++ (UIApplication *)getSharedApplication {
+    Class UIApplicationClass = NSClassFromString(@"UIApplication");
+    if (UIApplicationClass && [UIApplicationClass respondsToSelector:@selector(sharedApplication)]) {
+        return [UIApplication performSelector:@selector(sharedApplication)];
+    }
+    return nil;
 }
 
 @end
